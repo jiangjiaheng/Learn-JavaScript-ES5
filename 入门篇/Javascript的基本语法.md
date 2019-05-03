@@ -1,5 +1,27 @@
 # Javascript的基本语法
 
+<!-- TOC -->
+
+- [Javascript的基本语法](#javascript的基本语法)
+    - [语句](#语句)
+    - [变量](#变量)
+    - [标识符](#标识符)
+    - [注释](#注释)
+    - [区块](#区块)
+    - [条件语句](#条件语句)
+        - [1. if](#1-if)
+        - [2. if else](#2-if-else)
+        - [3. switch](#3-switch)
+        - [4. 三元运算符](#4-三元运算符)
+    - [循环语句](#循环语句)
+        - [1. while](#1-while)
+        - [2. for](#2-for)
+        - [3. do while](#3-do-while)
+        - [4. break和continue](#4-break和continue)
+    - [标签](#标签)
+
+<!-- /TOC -->
+
 ## 语句
 
 语句（statement）是为了完成某种任务而进行的操作，比如下面就是一行赋值语句

@@ -1,5 +1,13 @@
 # null && undefined && boolean
 
+<!-- TOC -->
+
+- [null && undefined && boolean](#null--undefined--boolean)
+    - [null && undefined](#null--undefined)
+    - [boolean](#boolean)
+
+<!-- /TOC -->
+
 ## null && undefined
 
 在`if`语句中，null和undefined都会被自动转为`false`
