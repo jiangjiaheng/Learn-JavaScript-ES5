@@ -2,7 +2,7 @@
 
 ## null && undefined
 
-- 在`if`语句中，null和undefined都会被自动转为`false`
+在`if`语句中，null和undefined都会被自动转为`false`
 
 ```null
 if (!undefined) {
@@ -16,7 +16,7 @@ if (!null) {
 // null is false
 ```
 
-- null表示空值，即该处的值现在为空。调用函数时，某个参数未设置任何值，这时就可以传入null，表示该参数为空。
+null表示空值，即该处的值现在为空。调用函数时，某个参数未设置任何值，这时就可以传入null，表示该参数为空。
 
 ```null
 Number(null) // 0
@@ -27,7 +27,7 @@ i
 // null
 ```
 
-- undefined是一个表示"此处无定义"的原始值，转为数值时为`NaN`
+undefined是一个表示"此处无定义"的原始值，转为数值时为`NaN`
 
 ```undefined
 Number(undefined) // NaN

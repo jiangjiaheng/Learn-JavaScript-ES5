@@ -4,7 +4,9 @@
 
 语句（statement）是为了完成某种任务而进行的操作，比如下面就是一行赋值语句
 
-- `var a = 1 + 3;`
+```var
+var a = 1 + 3;
+```
 
 `var`是变量的声明符号，`1+3`是表达式，`;`表示语句结束。
 
@@ -12,19 +14,23 @@
 
 变量是对“值”的具名引用。变量就是为“值”起名，然后引用这个名字，就等同于引用这个值。变量的名字就是变量名。
 
-- `var a=1;`
+```var
+var a=1;
 
-- `var a; a=1;`
+var a; a=1;
 
-- `var a; a // undefined`
+var a; a // undefined
 
-- `var a, b`
+var a, b
 
-- `var a=1; a='hello'`
+var a=1; a='hello'
 
-- `var x=1; var x=2`
+var x=1; var x=2
 
-- `console.log(a); var a=1` （这种语句叫变量提升，但是在ES6中，如果用`let`定义变量，变量提升将会报错）
+console.log(a); var a=1
+
+// 这种语句叫变量提升，但是在ES6中，如果用`let`定义变量，变量提升将会报错
+```
 
 ## 标识符
 
@@ -44,9 +50,9 @@
 
 ## 注释
 
-1. 行注释：`// 行注释`
+- 行注释：`// 行注释`
 
-2. 块注释：`/* 块注释 */`
+- 块注释：`/* 块注释 */`
 
 ## 区块
 
@@ -54,7 +60,9 @@ JavaScript 使用大括号，将多个相关的语句组合在一起，称为“
 
 对于var命令来说，JavaScript 的区块不构成单独的作用域（scope）。
 
-- `{var a=1;} a //1`
+```var
+{var a=1;} a //1
+```
 
 区块往往用来构成其他更复杂的语法结构，比如for、if、while、function等。
 
@@ -62,7 +70,7 @@ JavaScript 使用大括号，将多个相关的语句组合在一起，称为“
 
 ## 条件语句
 
-- if
+### 1. if
 
 ```if
 if(m===3)
@@ -73,7 +81,7 @@ if(m===3){
 }
 ```
 
-- if else
+### 2. if else
 
 ```if else
 if (m === 0) {
@@ -105,7 +113,7 @@ if (m !== 1) {
 }
 ```
 
-- switch
+### 3. switch
 
 ```switch
 var x=1;
@@ -122,7 +130,7 @@ switch (x) {
 }
 ```
 
-- 三元运算符
+### 4. 三元运算符
 
 ```?:
 var msg = '数字' + n + '是' + (n % 2 === 0 ? '偶数' : '奇数');
@@ -130,7 +138,7 @@ var msg = '数字' + n + '是' + (n % 2 === 0 ? '偶数' : '奇数');
 
 ## 循环语句
 
-- while
+### 1. while
 
 ```while
 while (条件)
@@ -154,7 +162,7 @@ while (i < 100) {
 }
 ```
 
-- for
+### 2. for
 
 ```for
 for (初始化表达式; 条件; 递增表达式)
@@ -177,7 +185,7 @@ for (var i = 0; i < x; i++) {
 // 2
 ```
 
-- do while
+### 3. do while
 
 ```do while
 do
@@ -200,7 +208,7 @@ do {
 } while(i < x);
 ```
 
-- break和continue
+### 4. break和continue
 
 ```break
 var i = 0;
@@ -222,7 +230,7 @@ while (i < 100){
 }
 ```
 
-- 标签
+## 标签
 
 ```label
 label:
